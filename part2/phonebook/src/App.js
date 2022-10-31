@@ -81,7 +81,6 @@ const App = () => {
         }
         setNewName("")
         setNewNumber("")
-        ssh-keygen -t rsa -b 4096 -C "christopher.lindberg@helsinki.fi"
         return;
     }
 
