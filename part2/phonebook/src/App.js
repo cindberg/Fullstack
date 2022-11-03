@@ -65,7 +65,7 @@ const App = () => {
                     .then(returnedUser => {
                         setPersons(persons.map(person => person.id === user.id ? returnedUser : person))
 
-                        setNotification('nNumber for ${user.name} was updated')
+                        setNotification(`Number for ${user.name} was updated`)
                         setTimeout(() => {
                             setNotification(null)
                         }, 5000)
@@ -81,7 +81,7 @@ const App = () => {
         }
         setNewName("")
         setNewNumber("")
-        ssh-keygen -t rsa -b 4096 -C "christopher.lindberg@helsinki.fi"
+
         return;
     }
 
@@ -106,7 +106,6 @@ const App = () => {
         }
 
     }
-
 
     return (
         <div>
